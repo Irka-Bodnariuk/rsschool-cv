@@ -1,4 +1,4 @@
-![photo IRYNA BODNARIUK](./image/photo.jpg)
+![photo IRYNA BODNARIUK](photo.jpg)
 
 # IRYNA BODNARIUK
 
@@ -9,7 +9,7 @@
 **Phone:** _+38 066 006 11 07_\
 **E-mail:** _bodnariuk.iryna1@gmail.com_\
 **[LinkedIn](http://www.linkedin.com/in/iryna-bodnariuk)**\
-**[Github](https://github.com/Irka-Bodnariuk)**\
+**[Github](https://github.com/Irka-Bodnariuk)**
 
 ---
 
@@ -30,9 +30,7 @@
 ## Projects:
 
 **[So Yummy](https://irka-bodnariuk.github.io/team-project-so-yummy-frontend/)**\
-
 [Project Link](https://github.com/Irka-Bodnariuk/team-project-so-yummy-frontend)\
-
 _So Yummy is a recipe search website where I worked as a team lead. During the project, I gained valuable experience in task organization and delegation. My responsibilities included implementing user registration and login, subscriptions, and adding recipe ingredients to a shopping list. Regarding frontend development, I developed the header component._
 
 ---
@@ -68,7 +66,11 @@ _Web Studio was my individual project where I created a responsive website for a
 ## Work Experience:
 
 **IT and information protection sector (Geocadastre)**\
-_Electronic document management. Application of complex information protection systems. Material and technical support. Preparation for meetings and conferences. Formation of the archive._
+
+- _Electronic document management._
+- _Application of complex information protection systems._
+- _Material and technical support._
+- _Preparation for meetings and conferences. Formation of the archive._
 
 ## Languages:
 
