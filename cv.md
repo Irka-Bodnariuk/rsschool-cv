@@ -2,7 +2,9 @@
 
 # IRYNA BODNARIUK
 
-## Junior Back-end Developer
+## Junior Front-end Developer
+
+_**I always strive to learn and improve my skills. I am proficient in a range of technologies, including JavaScript, React, and Node.js, and am familiar with database management using MongoDB. I am a team player and a quick learner, responsible, and ready to complete tasks.**_
 
 ## Contacts:
 
@@ -12,8 +14,6 @@
 **[Github](https://github.com/Irka-Bodnariuk)**
 
 ---
-
-> I always strive to learn and improve my skills. I am proficient in a range of technologies, including JavaScript, React, and Node.js, and am familiar with database management using MongoDB. I am a team player and a quick learner, responsible, and ready to complete tasks.
 
 ## Tech skills:
 
@@ -65,7 +65,7 @@ _Web Studio was my individual project where I created a responsive website for a
 
 ## Work Experience:
 
-**IT and information protection sector (Geocadastre)**\
+**IT and information protection sector (Geocadastre)**
 
 - _Electronic document management._
 - _Application of complex information protection systems._
