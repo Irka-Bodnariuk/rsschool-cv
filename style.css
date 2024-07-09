@@ -1,9 +1,13 @@
 body {
+  margin: 0;
   color: #757575;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
-  font-size: 16px;
+  font-size: 12px;
   background-color: rgb(238, 227, 218);
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
 }
 
 h1,
@@ -35,11 +39,12 @@ ul {
 
 .link {
   text-decoration: none;
-  color: #4c3c37;
+  color: #3c2f2b;
+  transition: color 250ms linear;
 }
 .link:hover,
 .link:focus {
-  color: #e5663b;
+  color: #a11e01;
 }
 
 .container {
@@ -50,31 +55,79 @@ ul {
 .section-title {
   padding-bottom: 10px;
 }
-
+header {
+  background: #846e67;
+  background: linear-gradient(
+    180deg,
+    rgba(132, 110, 103, 1) 10%,
+    rgba(238, 227, 218, 1) 100%
+  );
+}
+nav {
+  margin: 0 auto;
+  max-width: 1440px;
+}
 .nav-list {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 30px;
+  column-gap: 10px;
+  flex-wrap: wrap;
+  margin: 0 16px;
+  @media screen and (min-width: 768px) {
+    gap: 30px;
+  }
 }
 
 .nav-link {
+  position: relative;
   padding: 10px 0;
-  font-size: 18px;
+  font-size: 14px;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #a11e01;
+  transition: width 0.2s ease-in-out;
+}
+.nav-link:hover::after,
+.nav-link:focus::after {
+  width: 100%;
+  background-color: #a11e01;
 }
 
+section {
+  margin: 0 16px;
+}
 .hero-container {
   display: flex;
-  gap: 50px;
+  gap: 10px;
+  @media screen and (min-width: 768px) {
+    gap: 50px;
+  }
 }
 .hero-image {
-  width: 400px;
+  width: 100px;
+  height: fit-content;
+  @media screen and (min-width: 768px) {
+    width: 200px;
+  }
 }
 
 .hero-inner {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 8px;
+  @media screen and (min-width: 768px) {
+    gap: 20px;
+  }
 }
 
 .contacts-name {
@@ -107,4 +160,12 @@ ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+.footer-link {
+  transition: all 250ms linear;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  transform: scale(1.1);
 }
