@@ -1,4 +1,4 @@
-![image IRYNA BODNARIUK][/images/image.png]
+![image IRYNA BODNARIUK][images/image.png]
 
 # IRYNA BODNARIUK
 
